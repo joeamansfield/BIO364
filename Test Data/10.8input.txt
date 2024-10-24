@@ -1,0 +1,9 @@
+0.262
+--------
+A	B	C	D	E
+--------
+-BCAB-A-A
+-BC--AABC
+DBCC-AA--
+AACCB-ACC
+ABECBAACC

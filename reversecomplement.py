@@ -1,0 +1,10 @@
+file = open("C:/Users/Joe/Downloads/dataset_577104_2.txt")
+sequence = file.read()
+sequence = sequence[::-1]
+sequence = sequence.replace('G', '1')
+sequence = sequence.replace('T', '2')
+sequence = sequence.replace('C', 'G')
+sequence = sequence.replace('1', 'C')
+sequence = sequence.replace('A', 'T')
+sequence = sequence.replace('2', 'A')
+print(sequence)
